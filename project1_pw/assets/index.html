@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap RWD</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="imgs/LOGO.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Resources
+                    </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#product">Product</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item mx2">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                </ul>
+                <form action="" class="d-flex gap-2">
+                    <button class="btn btn-outline-danger">Login</button>
+                    <button class="btn btn-danger">Get started</button>
+                </form>
+            </div>
+            </div>
+        </nav>
+    <section class="home" id="home">
+        <div class="body">
+            <section class="" id="home">
+                <div class="home-text">
+                    <p>Welcome to<br>Netflix!</p>
+                </div>
+                <div class="home-text2">
+                    <p>Ready to watch some Movies or Series?<br>Choose your favorite show or movie here!!</p>
+                </div>
+            </section>
+            <div class="search-container">
+                <input type="text" class= "rounded-5 text-center" id="searchInput" placeholder="Search...">
+                <ul id="resultList"></ul>
+            </div>
+            <section class="mt-2 text-center text-danger" id="home">
+                <div class="home-text">
+                    <h4>Supported devices</h4>
+                </div>
+            </section>
+            <div class="img-fluid" id="">
+                <img src="imgs/tv.png" class="" alt="...">
+                <img src="imgs/ponsel.png" class="" alt="...">
+                <img src="imgs/console.png" class="" alt="...">
+                <img src="imgs/comp.png" class="" alt="...">
+            </div>
+            <div class="text-center">
+                <h2>Follow Us on Social Media</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vitae numquam corporis nostrum nisi at?
+                <br>Amet, consequatur aspernatur! Animi exercitationem illum cum quibusdam?</p>
+            </div>
+            <section class="about" id="about">
+            <div class="container list-item mt-4">
+                <div class="row justify-content-center">
+                    <div class="col-4 justify-content-center">
+                        <img src="imgs/gambar1.jpeg" alt="" />
+                        <img src="imgs/gambar4.jpeg" alt="" />
+                    </div>
+                    <div class="col-4">
+                        <img src="imgs/gambar2.jpeg" alt="" />
+                        <img src="imgs/gambar5.jpeg" alt="" />
+                    </div>
+                    <div class="col-4">
+                        <img src="imgs/gambar3.jpeg" alt="" />
+                        <img src="imgs/gambar6.jpeg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="product" id="product">
+        <div class="container pricing mt-5">
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <div class="item">
+                        <div class="header">
+                            <h2>Personal</h2>
+                            <span>&dollar;39</span>
+                        </div>
+                        <div class="feature mt-3">
+                            <div class="feature-item">
+                                <span>&#10004;</span>
+                                <span>All Analytics Features</span>
+                            </div>
+                            <div class="feature-item">
+                                <span>&#10004;</span>
+                                <span>Up to 250.000 tracked visitors</span>
+                            </div>
+                            <div class="feature-item">
+                                <span>&#10004;</span>
+                                <span>Normal Support</span>
+                            </div>
+                            <div class="feature-item">
+                                <span>&#10004;</span>
+                                <span>Mobile App</span>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <button class="btn">Get Started</button>
+                            <span>Includes Free Trial</span>
+                            <span>of Source Proof</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 me-3 ms-3">
+                    <div class="item">
+                        <div class="header">
+                            <h2>Team</h2>
+                            <span>&dollar;59</span>
+                        </div>
+                        <div class="feature mt-3">
+                            <div class="feature-item">
+                                <span>&#10004;</span>
+                                <span>Everything on Growth plan</span>
+                            </div>
+                            <div class="feature-item">
+                                <span>&#10004;</span>
+                                <span>Up to 500.000 tracked visits</span>
+                            </div>
+                            <div class="feature-item">
+                                <span>&#10004;</span>
+                                <span>Dedicated Support</span>
+                            </div>
+                            <div class="feature-item">
+                                <span>&#10004;</span>
+                                <span>Mobile App</span>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <button class="btn">Get Started</button>
+                            <span>Includes Free Trial</span>
+                            <span>of Source Proof</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="item">
+                        <div class="header">
+                            <h2>Unlimited</h2>
+                            <span>&dollar;139</span>
+                        </div>
+                        <div class="feature mt-3">
+                            <div class="feature-item">
+                                <span>&#10004;</span>
+                                <span>Up to 50 team members</span>
+                            </div>
+                            <div class="feature-item">
+                                <span>&#10004;</span>
+                                <span>Unlimited access</span>
+                            </div>
+                            <div class="feature-item">
+                                <span>&#10004;</span>
+                                <span>Collaborations tools</span>
+                            </div>
+                            <div class="feature-item">
+                                <span>&#10004;</span>
+                                <span>All integrations included</span>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <button class="btn">Get Started</button>
+                            <span>Includes Free Trial</span>
+                            <span>of Source Proof</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="contact" id="contact">
+        <div class="text-center">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, quos ad magni impedit magnam ducimus
+                <br> reiciendis tempora a, non dolorum aliquid est perspiciatis doloremque voluptatem.</p>
+        </div>
+        <div class="container">
+            <div class="form">
+              <form>
+                <!-- formulir kiri -->
+                <label for="username-left">Name</label>
+                <input type="text" id="username-left" name="username-left">
+              </form>
+            </div>
+            <div class="form">
+              <form>
+                <!-- formulir kanan -->
+                <label for="username-right">Email</label>
+                <input type="text" id="username-right" name="username-right">
+              </form>
+            </div>
+        </div>
+    </div>
+    <div class="form2">
+        <label for="pesan">Message:</label><br>
+        <textarea id="Message" name="Message" rows="4" cols="137" placeholder="Please type your message here.."></textarea><br><br>
+    </div>
+    </section>
+        <div class="btn d-grid justify-content-center">    
+            <button type="button" class="btn btn-danger" style="width: 200px;">Send Message</button>
+        </div>
+        <section class="footer">
+        <footer>
+            <p class="text-center">natanzra@gmail.com
+            <br>
+            (021)927-732
+            </p>
+            <p class="text-center">
+                23 Middle Point Rd, Indragiri, 7342
+            </p>
+            <div class="social  grid justify-content-center">
+                <div><a href="#"><i class='bx bxl-facebook'></i></a></div>
+                <div><a href="#"><i class='bx bxl-twitter'></i></a></div>
+                <div><a href="#"><i class='bx bxl-instagram'></i></a></div>
+                <div><a href="#"><i class='bx bxl-tiktok'></i></a></div>
+            </div>
+        </footer>
+        <br>
+        <br>
+        </footer>
+    </section>
+
+
+
+
+        <!-- JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
